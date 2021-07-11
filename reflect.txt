@@ -1,0 +1,13 @@
+1. My favourite string function is the strcpy function.
+The reason it is my favourite is because it helps shorten my code when I want to cope the contents of one string onto another.
+It is especially useful in this assignment because there are so many strings that need to be declared, defined, adjusted, and/or changed entirely.
+My usual method in getting and/or changing the contents of strings is that I create a temporary string, copy the original's content into it, make my edits in the temporary string, and once I have a perfect output I copy the temporary string's contents into the original.
+The reason I usually so this is because the assignment has many different conditions and requirements for a string depending on what they represent in the code.
+Depending on what a string represents in a code, they have different requirements that need to be met in order to proceed.
+Examples are an Account's Demographic's country needs to have all letters be upp case letters, an Account's UserLogin's login name needs to have no whitespace characters in it, and an Account's UserLogin's password needs to have 2 numbers, 2 upper case letters, 2 lower case letters, and 2 symbols in order to accept the input.
+If you make a mistake during these functions and need to reset, you could end up lossing the original content of the string and any further adjustments would end in futility because you have no original string to reset your work back to.
+So I create temporary string and in the case I do make a mistake, the only damage is to the temporary string and the original string stays safe and unchanged.
+Only when I finalize the changes I want and it works in the source code, I will copy the correct output to the original string.
+
+2. For my accountTicketingUI.h, the new function prototypes I added were loginValidation, displayAgentTicketHeader, displayAgentTicketRecord, displayAgentTicketEnder, displayAgentAllTicketRecord, displayCustomerTicketHeader, displayCustomerTicketRecord, displayCustomerTicketEnder, displayCustomerAllTicketRecord, viewNewAgentTickets, viewActiveAgentTickets, and viewCustomerTickets.
+The reason I put all of these functionin the accountTicketingUI.h header files is because all of these functions manipulated the UI of the application in some way. The loginValidation is to show if the login credentials were correct and all the display and view functions simplely just showed something to the user.
